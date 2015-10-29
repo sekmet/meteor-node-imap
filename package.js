@@ -4,7 +4,7 @@ Package.describe({
 
 Npm.depends({
   "utf7": "1.0.0",
-  "imap": 'https://github.com/sekmet/node-imap/archive/v0.8.16.tar.gz'
+  "imap": "0.8.16"
 });
 
 Package.on_use(function (api, where) {
